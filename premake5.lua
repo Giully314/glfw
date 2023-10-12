@@ -1,7 +1,7 @@
 project "glfw"
 	kind "StaticLib"
 	language "C"
-	staticruntime "On"
+	--staticruntime "On"
 	systemversion "latest"
 
 	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
